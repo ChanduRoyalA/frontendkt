@@ -6,7 +6,7 @@ import yellowArrow from '../assets/yellowArrow.svg'
 
 const Section3 = () => {
   return (
-    <div className="bg-[#2B2730] text-white px-16">
+    <div className="bg-[#2B2730] text-white px-16 mt-[10%] md:mt-[10%] lg:mt-[1%]">
       <h1 className="text-3xl md:text-5xl font-bold">
         <span className="text-[#FFB84C]">Get direct</span>
         <br /> knowledge and insight.

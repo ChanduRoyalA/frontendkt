@@ -1,12 +1,12 @@
+import Logo from '../assets/Logo.svg'
+import menuIcon from "../assets/menuIcon.svg";
 import { PiDotsNineLight } from "react-icons/pi";
 
 const NavBar = () => {
   return (
     <nav className="flex mx-16 justify-between items-center pt-10">
       <div className="flex gap-8 items-center">
-        <h1 className=" text-2xl font-bold">
-          yodora<span className="text-[#FFB84C]">.</span>
-        </h1>
+        <img src={Logo}/>
         <div className="md:flex gap-8 hidden font-medium">
           <p>Explore</p>
           <p>Company</p>
@@ -20,9 +20,7 @@ const NavBar = () => {
         </button>
       </div>
       <div className="md:hidden">
-        <PiDotsNineLight
-          style={{ fontSize: "35px" }}
-        />
+        <img src={menuIcon}/>
       </div>
     </nav>
   );

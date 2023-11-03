@@ -6,19 +6,19 @@ import yellowArrow from '../assets/yellowArrow.svg'
 
 const Section3 = () => {
   return (
-    <div className="h-auto bg-[#2B2730] text-white px-16">
+    <div className="bg-[#2B2730] text-white px-16">
       <h1 className="text-3xl md:text-5xl font-bold">
         <span className="text-[#FFB84C]">Get direct</span>
         <br /> knowledge and insight.
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-3 place-items-center h-auto md:h-1/2 mt-10 gap-10 md:px-20">
-        <div className=" h-screen w-screen md:w-fit md:h-fit px-10 md:px-0">
-          <img src={person1} className="h-full w-full" />
+        <div className="w-screen flex justify-center  md:w-fit md:h-fit px-10 md:px-0">
+          <img src={person1} className="h-full" />
         </div>
-        <div className=" h-screen w-screen md:w-fit md:h-fit px-10  md:px-0">
+        <div className=" w-screen flex justify-center md:w-fit md:h-fit px-10  md:px-0">
           <img src={person2} className="h-full" />
         </div>
-        <div className=" h-screen w-screen md:w-fit md:h-fit px-10  md:px-0">
+        <div className="w-screen flex justify-center md:w-fit md:h-fit px-10  md:px-0">
           <img src={person3} className="h-full" />
         </div>
       </div>

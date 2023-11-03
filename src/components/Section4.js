@@ -54,7 +54,7 @@ const Section4 = () => {
             </div>
           </div>
         </div>
-        <div className=" h-fit flex justify-center">
+        <div className="h-fit w-full flex justify-center">
           <div className="bg-[#2B2730] w-full text-white text-center py-10  rounded-2xl">
             <h1 className="text-xl md:text-3xl font-bold">
               Engage without limits

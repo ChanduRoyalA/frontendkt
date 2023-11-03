@@ -4,6 +4,48 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components{
+  .imgCardSection3{
+    @apply  flex justify-center w-full h-full md:px-0;
+  }
+  .imgDivSection3{
+    @apply grid grid-cols-1 md:grid-cols-3 place-items-center h-auto md:h-1/2 mt-10 gap-10 md:px-20;
+  }
+  .textDivSection3{
+   @apply text-[#FFB84C] text-2xl md:text-4xl font-bold;
+  }
+  .Section3{
+    @apply bg-[#2B2730] text-white px-16 mt-[10%] md:mt-[10%] lg:mt-[1%];
+  }
+  .SectionTextMainDiv{
+    @apply flex flex-col md:flex-row justify-between items-center px-10 gap-10 md:gap-0 py-20 ;
+  }
+  .btn{
+    @apply py-2 px-6 rounded-full;
+  }
+  .Section4_2TextDiv{
+    @apply w-full text-center md:w-1/2 h-1/2 px-4 ;
+  }
+  .Section4_2Div{
+    @apply flex flex-col flex-nowrap md:flex-row md:flex-wrap gap-10 md:gap-0 items-center md:items-start;
+  }
+  .Section4SmallText{
+    @apply text-[12px] md:text-[15px];
+  }
+  footer{
+    @apply flex justify-between flex-col md:flex-row  items-center gap-10 md:gap-0 h-auto mt-[10vh] pt-5 py-20;
+  }
+  .FooterSubDivs{
+    @apply h-fit flex justify-normal flex-col gap-2;
+  }
+  .FooterSubDivs p{
+    @apply text-[12px] md:text-[15px];
+  }
+    .FooterSubDivs h1{
+    @apply text-[15px] md:text-[18px];
+  }
+}
+
 
 body {
   margin: 0;
